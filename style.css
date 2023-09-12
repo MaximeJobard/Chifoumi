@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background: linear-gradient(135deg, #ffffff, #b1f2ff, #00d4ff, #5ca5dc, #bd74b7);
+}
+
+.ensemble{
+    margin: auto;
+    width: 40%;
+    height: 500px;
+}
+
+.cadre{
+    display: flex;
+    border: #bd74b7;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cadre>div>button{
+    width: 200%;
+    height: 80px;
+    background-color: #c1cee6;
+}
+
+.result{
+    border: #105ae3;
+    border-width: 20px;
+}
